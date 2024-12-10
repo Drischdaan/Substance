@@ -1,0 +1,32 @@
+# Jetbrains IDEs
+.idea/
+
+# Visual Studio Code
+.vscode/
+
+# Visual Studio
+.vs/
+
+#Binary and Intermediate files
+Binaries/
+Intermediate/
+
+#Project files
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
+*.sln.DotSettings.user
+
+# Python pycache
+__pycache__/
+
+# Preprocessed files
+Scripts/Config/properties_preprocessed.lua
+
+# Crash reports
+*.dmp
+
+# Log files
+*.log
+Logs/

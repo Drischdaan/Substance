@@ -8,7 +8,7 @@ rw_project('Substance')
 	rw_precompiled_header()
 
 	defines({
-		macro_prefix .. '_COMPILE_LIBRARY=1',
+		macro_prefix .. 'COMPILE_LIBRARY=1',
 	})
 
 	rw_copy_output_to_directory(path.join(project_build_output_path, 'Tests'))

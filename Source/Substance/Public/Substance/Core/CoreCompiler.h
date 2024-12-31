@@ -115,6 +115,14 @@
 #	endif
 #pragma endregion // CPP
 
+#pragma region VersionSpecifics
+#	if ST_CPP_VERSION >= ST_CPP_VERSION11
+#		define STATIC_ASSERT(Condition, Message) static_assert(Condition, Message)
+#	else
+#		define STATIC_ASSERT(Condition, Message)
+#	endif
+#pragma endregion
+
 #pragma region Attributes
 #	ifdef __has_cpp_attribute
 #		define ST_HAS_CPP_ATTRIBUTE(Attribute) __has_cpp_attribute(Attribute)

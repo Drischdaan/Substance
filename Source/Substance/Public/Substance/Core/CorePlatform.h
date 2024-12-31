@@ -2,6 +2,13 @@
 
 // []===================================================================[]
 // Available platform definitions:
+// - ST_PLATFORM_LINUX
+// - ST_PLATFORM_WINDOWS
+// - ST_PLATFORM_NAME
+// - ST_PLATFORM_X64
+// - ST_PLATFORM_X32
+// - ST_POINTER_SIZE
+// - ST_PLATFORM_POINTER_ALIGNMENT
 // []===================================================================[]
 
 #if defined(__linux) || defined(__linux__)

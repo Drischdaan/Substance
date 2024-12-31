@@ -118,8 +118,10 @@
 #pragma region VersionSpecifics
 #	if ST_CPP_VERSION >= ST_CPP_VERSION11
 #		define STATIC_ASSERT(Condition, Message) static_assert(Condition, Message)
+#		define CONSTEXPR constexpr
 #	else
 #		define STATIC_ASSERT(Condition, Message)
+#		define CONSTEXPR
 #	endif
 #pragma endregion
 

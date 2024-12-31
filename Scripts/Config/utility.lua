@@ -42,7 +42,7 @@ function rw_default_compiler_flags()
 	characterset('Unicode')
 	callingconvention('FastCall')
 	floatingpoint('Fast') -- If issues arise, change this
-	staticruntime('Off')
+	staticruntime('On')
 	editandcontinue('Off')
 	rw_enable_multi_processor_compilation()
 end

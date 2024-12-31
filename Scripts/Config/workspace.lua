@@ -27,7 +27,6 @@ workspace(project_name)
 		macro_prefix .. 'PROJECT_VERSION_SUFFIX="' .. project_version_suffix .. '"',
 		macro_prefix .. 'PROJECT_FULL_VERSION="' .. project_version_string .. '"',
 		macro_prefix .. 'PROJECT_AUTHOR="' .. project_author .. '"',
-		macro_prefix .. 'LIBRARY_SHARED=1',
 	})
 
 	rw_filter_configuration_debug()

@@ -1,7 +1,7 @@
 rw_project('Substance')
 	rw_default_location()
 	rw_language_cpp()
-	rw_kind_shared_lib('Substance')
+	rw_kind_static_lib('Substance')
 
 	rw_default_files()
 	rw_default_includes()
@@ -10,5 +10,3 @@ rw_project('Substance')
 	defines({
 		macro_prefix .. 'COMPILE_LIBRARY=1',
 	})
-
-	rw_copy_output_to_directory(path.join(project_build_output_path, 'Tests'))
